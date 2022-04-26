@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['139.162.158.101']
 # Application definition
 
 INSTALLED_APPS = [
+    'HardwareStore.apps.HardwarestoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
