@@ -7,7 +7,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 # Create your models here.
 
 
-class Product:
+class Product(models.Model):
     name = models.CharField(max_length=255)  # 1
     desc = models.TextField(blank=True, null=True)  # 2
     alias = models.CharField(max_length=255)
